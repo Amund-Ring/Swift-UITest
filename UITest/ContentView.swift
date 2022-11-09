@@ -13,9 +13,12 @@ struct ContentView: View {
             .font(.headline)
             .foregroundColor(Color.white)
             .padding(16.0)
-            .background(Color.blue
-                .blur(radius: 3))
+            .background(Color.green)
             .cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
+            .padding(16)
+            .background(Color.blue)
+            .cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
+            
         
     }
 }
